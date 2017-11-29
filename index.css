@@ -1,3 +1,9 @@
+body {
+    background-image: url("fondo-extendido2.jpg");
+    background-repeat: no-repeat;
+		background-position: center;
+}
+
 #VideosMenu {
 	background-color: Gray;
 	opacity: 0.8;
@@ -39,8 +45,7 @@
 	width: 365px;
 }
 
-.textoH {
-
-
-
+.heroes2 {
+	font-size:25px;
+	color: white
 }
