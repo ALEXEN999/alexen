@@ -17,8 +17,9 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #000000;
     opacity: 0.9;
+
 }
 
 li {
@@ -42,18 +43,21 @@ li a:hover {
 
 }
 
-.heroes {
-  float: right;
-  padding: 1px;
-	width: 365px;
-  position: static;
+.heroes-card {
+  float: left;
+
+
 }
 
-.heroes2 {
-  float: right;
+.heroes-card-image {
+  padding: 1px;
+  width: 365px;
+  margin-left: 50px;
+}
+
+.heroes-card-label {
 	font-size:25px;
   text-decoration: none;
 	color: white;
-  right: 0px;
-  position: static;
+  text-align: center;
 }
