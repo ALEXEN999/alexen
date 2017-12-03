@@ -1,6 +1,6 @@
 body {
     /* The image used */
-    background-image: url("nebula_azul.jpg");
+    background-image: url("galaxya.jpg");
 
     /* Set a specific height */
     height: 500px;
@@ -39,16 +39,72 @@ li a:hover {
     text-decoration: none;
     text-align: center;
     color: white
+}
 
+#SubMenu-DC {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #111;
+    opacity: 0.9;
+	margin-left: 155px;
+	margin-right: 155px;
+	margin-top: 50px;
+	
+}
+
+#DCheroes {
+	display: inline;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	float: right;
+	}
+
+#DCheroes:hover {
+    background-color: #1E90FF;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+	}
+	
+#DCvillains {
+	display: inline;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	float: left;
+}
+
+#DCvillains:hover {
+    background-color: #8B0000;
+    text-decoration: none;
+    text-align: center;
+    color: white	
+	}
+
+
+
+
+.heroes-card-1 {
+	margin-left: 110px;	
+	margin-top: 50px;
 
 }
 
+.heroes-card-2 {
+	margin-left: 110px;
+	margin-top: 350px;
+}
 .heroes-card {
   float: left;
   outline-style: double;
   background-color: black;
-  opacity: 0.8;
-  margin-left: 78px;
+  opacity: 0.9;
+  margin-left: 48px;
 
 }
 
